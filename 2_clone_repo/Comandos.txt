@@ -1,0 +1,33 @@
+  #Aula 14 Criando um repositório 
+    git.init     => criando um repositório  
+
+  #Aula 17  Eviando o repositório para o GitHub
+    git status                          => Verificando as alterações
+    git add .                           => Adicionando todos os arquivo para ser comitado
+    git commit -m "mensagem"            => Salvando o arquivo no repositório local
+    git branch -M master                => Criando uma Branch (master)    
+    git remote add origin git@github.com:bcimportar/curso_git_1.git    => Sincronizando projeto local com remoto (github.com)  
+    git remote -v                      => Verificando as origens
+    git remote -rm origin              => Removendo as origin
+    git remote add  origin git@github.com:bcimportar/curso_git_1.git   => Adicionando uma nova origin (SSH)
+    git push -u origin master         => Enviando arquivos para remoto (github.com)
+    
+  #Aula 18 Verificando as Mudanças 
+    git status                        => Verificando as alterações
+    Untracked                         => Arquivo ainda não mapeado pelo GitHub (U)
+    git add Comandos.txt              => Adicionando um arquivo específico 
+    git add b.txt                     => Adicionando um arquivo específico 
+    git add .                         => Adicionando Todos os arquivo para serem comitados
+  
+  #Aula 19 Salvando as alterações 
+   git commit a.txt -m "mensagem"     => Salvando  o arquivo específico  repositório local
+   git commit -a -m "mensagem "       => Salvando todos os arquivo 
+
+  #Aula 21 Eviando códigos para o repositório remoto
+   git push                           => Eviando os arquivo para repositório remoto
+
+  #Aula 22 Recebendo alterações
+   git pull                           => Recebendo atualizações do repoistorio remoto
+
+  #Aula 22 Clonando repositório
+    git clone                         => Clonando o repositório remoto
