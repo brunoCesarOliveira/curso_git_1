@@ -1,0 +1,9 @@
+  #Aula 14 Criando um repositório 
+      git.init   => criando um repositório  
+
+  #Aula 17  Eviando o repositório para o GitHub
+          git status - verificando os arquivos
+          git add    - Adicionando o arquivo
+          git commit - Eviando para branch local
+          
+     
