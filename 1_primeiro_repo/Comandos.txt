@@ -29,5 +29,8 @@
   #Aula 22 Recebendo alterações
    git pull                           => Recebendo atualizações do repoistorio remoto
 
-  #Aula 22 Clonando repositório
+  #Aula 23 Clonando repositório
     git clone  git@github.com:bcimportar/curso_git_1.git  => Clonando o repositório remoto
+
+ #Aula 23 Removendo arquivos
+      git rm c.txt                    => Removendo arquivo
