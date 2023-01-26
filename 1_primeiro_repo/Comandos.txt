@@ -39,5 +39,5 @@
     git log                          => Verificando as os commits
    
   #Aula 26 Mover ou Renomear arquivo
-   git mv script.js css/script.js                             => Movendo arquivos
-   git mv css/bannerinicial.css css/banner/banner_inicial.css => Renomeando arquvios
+   git mv script.js css/script.js                       => Movendo arquivos
+   git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
