@@ -1,9 +1,15 @@
   #Aula 14 Criando um repositório 
-      git.init   => criando um repositório  
+      git.init     => criando um repositório  
 
   #Aula 17  Eviando o repositório para o GitHub
-          git status - verificando os arquivos
-          git add    - Adicionando o arquivo
-          git commit - Eviando para branch local
-          
+      git status                  => verificando os arquivos
+      git add                     => Adicionando o arquivo
+      git commit                  => Enviando  para repositório local
+      git branch -M maste         =>  Criando uma Branch (master)    
+      git remote add origin git@github.com:bcimportar/curso_git_1.git     => Sincronizando projeto local com remoto (github.com)  
+      git remote -v              => verificando as origens
+      git remote -rm origin      => removendo as origins
+      git remote add  origin     => Adicionando uma nova origin (git@github.com:bcimportar/curso_git_1.git) (SSH)
+      git push -u origin main    => Enviando arquivos para remoto (github.com)
+
      
