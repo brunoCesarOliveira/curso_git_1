@@ -22,3 +22,6 @@
   #Aula 19 Salvando as alterações 
    git commit a.txt -m "mensagem"     => Salvando  o arquivo específico  repositório local
    git commit -a -m "mensagem "       => Salvando todos os arquivo 
+
+  #Aula 20 Eviando códigos para o repositório remoto
+   git push                           => Eviando os arquivo para repositório remoto
