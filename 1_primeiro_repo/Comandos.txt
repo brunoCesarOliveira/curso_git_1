@@ -97,4 +97,5 @@
      git push origin v4.0       => Enviando Tags para o repositorio
 
  #Aula 45 Encontrando Branch
-   git push --set--upstream origin Funcionalidade_A   =>Enviando brach para o repositorio
+   git push --set-upstream origin Funcionalidade_A  =>Enviando brach para o repositorio
+   git fetch -a                                     => Pega todas as branch do repoistorio
