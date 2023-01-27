@@ -60,7 +60,8 @@
    git branch --delete 123_arrrumar_bug_home   => Deleta a branch
 
   #Aula 34 Mudando de brach
-    git checkout       =>Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de brach)
+    git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de brach)
+    git checkout --b novabranch       => Muda de Branch e já a novabranch 
    
 
    
