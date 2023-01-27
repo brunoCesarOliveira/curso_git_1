@@ -62,12 +62,15 @@
   #Aula 34 Mudando de brach
     git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de brach)
     git checkout --b novabranch       => Muda de Branch e já a novabranch 
-    
+     Alternando a branch algum_nome
+      atualização
+   
+
+
   #Aula 35 Unindo Branch
-    git merge algum_nome              => Unindo master com algum_nome
-    git checkout -b novabranch        => Muda de Branch e já a novabranch 
+    git merge algum_nome               => Unindo master com algum_nome
+    git add .                          => Para as novas atualizações
+    git push                           => Para atualizações o repositório remoto
    
-   Alternando a branch algum_nome
-   atualização
-   
+  
    
