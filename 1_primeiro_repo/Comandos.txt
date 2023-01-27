@@ -64,5 +64,6 @@
     git checkout -b novabranch        => Muda de Branch e já a novabranch 
    
    Alternando a branch algum_nome
+   atualização
    
    
