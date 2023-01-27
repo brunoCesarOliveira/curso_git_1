@@ -82,3 +82,6 @@
   git stash clear             => Remove toda as stash
   git stash Drop (numero)     => Remove stash especifica
     
+ #Aula 40 Utilizando Tags
+   git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
+   git tag                                 => Lista  tags
