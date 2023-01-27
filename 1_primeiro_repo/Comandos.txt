@@ -30,7 +30,7 @@
    git pull                           => Recebendo atualizações do repoistorio remoto
 
   #Aula 23 Clonando repositório
-    git clone  git@github.com:bcimportar/curso_git_1.git  => Clonando o repositório remoto
+    git clone  git@github.com:bcimportar/curso_git_1.git .  => Clonando o repositório remoto
 
   #Aula 24 Removendo arquivos
     git rm c.txt                    => Removendo arquivo
@@ -95,3 +95,5 @@
 
  #Aula 42 Enviando tag par ao repositório remoto 
      git push origin v4.0       => Enviando Tags para o repositorio
+
+  #Aula 45 Encontrando brach
