@@ -74,7 +74,7 @@
   git stash           => Guarda as alterações  em outro lugar 
 
   #Aula 38 Recuperando o  Stash
-  git stash  list         => Mostra a lista de stash guardados
-  gist stash apply (número) + Recupera a stash
+  git stash  list           => Mostra a lista de stash guardados
+  gist stash apply (número) => Recupera a stash
    
    
