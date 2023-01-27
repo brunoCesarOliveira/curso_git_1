@@ -90,4 +90,4 @@
      git show v1.0          => Mostra os detalhes da tag
 
  #Aula 42 Enviando tag par ao repositório remoto 
-     git show v1.0          => Mostra os detalhes da tag
+     git push origin v4.0       => Enviando Tags para o repositorio
