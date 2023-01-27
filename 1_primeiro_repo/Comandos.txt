@@ -51,6 +51,16 @@
   #Aula 29 Reseta todas as alterações  
    git reset --hard origin/master  (master a brach que eu estou)
 
+  #Aula 33 Criando a visualizando branches
+   git branch                        => Lista as  branches 
+   git branch primeiro_branch        => criando uma nova branch (baseada na master)
+   
+  #Aula 34 Deletando branches
+   git branch -d segundo_branch                => Deleta a branch
+   git branch --delete 123_arrrumar_bug_home   => Deleta a branch
 
+  #Aula 34 Mudando de brach
+    git checkout       =>Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de brach)
+   
 
    
