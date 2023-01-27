@@ -71,11 +71,14 @@
     git push                           => Para atualizações o repositório remoto
    
   #Aula 37 Utilizando a Stash
-  git stash           => Guarda as alterações  em outro lugar 
+   git stash           => Guarda as alterações  em outro lugar 
 
   #Aula 38 Recuperando o  Stash
-  git stash  list            => Mostra a lista de stash guardados
-  git stash apply (número)   => Recupera a stash
-  git stash show -p 0        => Verificando as modificações feitas 
- 
-   
+    git stash  list            => Mostra a lista de stash guardados
+    git stash apply (número)   => Recupera a stash
+    git stash show -p 0        => Verificando as modificações feitas 
+  
+ #Aula 39 Removendo a stash
+  git stash clear             => Remove toda as stash
+  git stash Drop (numero)     => Remove stash especifica
+    
