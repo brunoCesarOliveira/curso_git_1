@@ -46,6 +46,7 @@
    git checkout css/banner_inicial.cs                    => Reseta as alterações feitas no arquivo (original)
 
   #Aula 28 Igonorando arquvos no projeto  
+   .gitignore
  
   #Aula 29 Reseta todas as alterações  
    git reset --hard origin/master  (master a brach que eu estou)
