@@ -65,4 +65,9 @@
     
   #Aula 35 Unindo Branch
     git merge algum_nome              => Unindo master com algum_nome
+    git checkout -b novabranch        => Muda de Branch e já a novabranch 
+   
+   Alternando a branch algum_nome
+   atualização
+   
    
