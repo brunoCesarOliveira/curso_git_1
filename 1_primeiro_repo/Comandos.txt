@@ -43,5 +43,10 @@
    git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
 
   #Aula 27 Defazendo as alterações
-   git checkout               => Retorna o arquivo para original 
+   git checkout css/banner_inicial.cs                    => Reseta as alterações feitas no arquivo (original)
+
+  #Aula 28 Igonorando arquvos no projeto  
+
+
+
    
