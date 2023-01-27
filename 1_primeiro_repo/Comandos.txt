@@ -64,5 +64,5 @@
     git checkout --b novabranch       => Muda de Branch e já a novabranch 
     
   #Aula 35 Unindo Branch
-    
+    git merge algum_nome              => Unindo master com algum_nome
    
