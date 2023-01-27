@@ -91,6 +91,7 @@
 
  #Aula 41 Verificando e alterando a tags 
      git show v1.0          => Mostra os detalhes da tag
+     git checkout  v5.0     => alterando a Tag
 
  #Aula 42 Enviando tag par ao repositório remoto 
      git push origin v4.0       => Enviando Tags para o repositorio
