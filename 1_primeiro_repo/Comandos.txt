@@ -85,3 +85,6 @@
  #Aula 40 Utilizando Tags
    git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
    git tag                                 => Lista  tags
+
+ #Aula 40 Verificando e alterando a tags 
+     git show v1.0          => Mostra os detalhes da tag
