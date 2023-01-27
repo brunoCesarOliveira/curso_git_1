@@ -78,7 +78,7 @@
     git stash apply (número)   => Recupera a stash
     git stash show -p 0        => Verificando as modificações feitas 
   
- #Aula 39 Removendo a stash
+  #Aula 39 Removendo a stash
   git stash clear             => Remove toda as stash
   git stash Drop (numero)     => Remove stash especifica
     
@@ -99,3 +99,6 @@
  #Aula 45 Encontrando Branch
    git push --set-upstream origin Funcionalidade_A  =>Enviando brach para o repositorio
    git fetch -a                                     => Pega todas as branch do repoistorio
+
+ #Aula 46 Recebendo Alterações 
+   git pull                   => Pega todas as atualização	do repositorio
