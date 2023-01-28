@@ -102,3 +102,9 @@
 
  #Aula 46 Recebendo Alterações 
    git pull                   => Pega todas as atualização	do repositorio
+   (Deixando a produção sempre atualizada )
+
+#Aula 47 Eviando Alterações
+   git push              => Enviando as alterações para repositório
+
+   
