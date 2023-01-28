@@ -104,14 +104,20 @@
    git pull                   => Pega todas as atualização	do repositorio
    (Deixando a produção sempre atualizada )
 
-#Aula 47 Eviando Alterações
+ #Aula 47 Eviando Alterações
    git push              => Enviando as alterações para repositório
 
-#Aula 48 Utilizando o remote 
+ #Aula 48 Utilizando o remote 
   git remove -v         => Verifica as origin das branches
   git remote rm origin  => Remove as origin
   git remote add        => Adiciona o repositorio remoto
    (Precisar enviar as branches novamente )
   git push --set-upstream origin master
 
-#Aul
+ #Aula 49 Trabalhando com submódulos
+    git submodule                                    => lista os submodules
+    git submodule add (link do submodule(gitHub))    => adiciona o submodule
+
+#Aula 50 Atualizando submodule
+  git add .  git commit -am "m"
+  git push --recurse-submodules=on-demand    => atualizando o submodule
