@@ -7,7 +7,7 @@ Seção 2 Git Fundamental
       git add .                          => Adicionando todos os arquivo para ser comitado
       git commit -m "mensagem"           => Salvando o arquivo no repositório local
       git branch -M master               => Criando uma Branch (master)    
-      git remote add origin git@github.com:bcimportar/curso_git_1.git     => Sincronizando projeto local com remoto (github.com)  
+      git remote add origin git@github.com:brunoCesarOliveira/curso_git_1.git     => Sincronizando projeto local com remoto (github.com)  
       git remote -v                      => Verificando as origens
       git remote -rm origin              => Removendo as origin
       git remote add  origin git@github.com:bcimportar/curso_git_1.git     => Adicionando uma nova origin (SSH) (Site do Git)
