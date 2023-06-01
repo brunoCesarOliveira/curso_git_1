@@ -46,25 +46,25 @@ Seção 2 Git Fundamental
       git log                          => Verificando as os commits
     
     #Aula 27 Renomear  Mover ou Renomear arquivo
-    git mv script.js css/script.js                       => Movendo arquivos
-    git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
+      git mv script.js css/script.js                       => Movendo arquivos
+      git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
 
     #Aula 28 Defazendo as alterações
-    git checkout css/banner_inicial.cs                    => Reseta as alterações feitas no arquivo (original)
+      git checkout css/banner_inicial.cs                    => Reseta as alterações feitas no arquivo (original)
 
     #Aula 29 Igonorando arquvos no projeto  
-    .gitignore
+      .gitignore
   
     #Aula 30 Reseta todas as alterações  
-    git reset --hard origin/master  (master a brach que eu estou)
+      git reset --hard origin/master  (master a brach que eu estou)
 
     #Aula 33 Criando a visualizando branches
-    git branch                        => Lista as  branches 
-    git branch primeiro_branch        => criando uma nova branch (baseada na master)
+      git branch                        => Lista as  branches 
+      git branch primeiro_branch        => criando uma nova branch (baseada na master)
     
     #Aula 34 Deletando branches
-    git branch -d segundo_branch                => Deleta a branch
-    git branch --delete 123_arrrumar_bug_home   => Deleta a branch
+      git branch -d segundo_branch                => Deleta a branch
+      git branch --delete 123_arrrumar_bug_home   => Deleta a branch
 
     #Aula 34 Mudando de brach
       git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de brach)
