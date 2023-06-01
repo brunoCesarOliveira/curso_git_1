@@ -47,6 +47,7 @@ Seção 2 Git Fundamental
     
     #Aula 27 Renomear  Mover ou Renomear arquivo
       git mv script.js css/script.js                       => Movendo arquivos
+      git mv rodape.css css/rodape.css                     => Movendo arquivos 
       git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
 
     #Aula 28 Defazendo as alterações
