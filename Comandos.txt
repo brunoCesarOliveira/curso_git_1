@@ -40,7 +40,7 @@ Seção 2 Git Fundamental
       git clone  git@github.com:bcimportar/curso_git_1.git .  => Clonando o repositório remoto (.) para o repositório atual
 
     #Aula 25 Removendo arquivos
-      git rm c.txt                    => Removendo arquivo
+      git rm 'a.txt'                   => Removendo arquivo
 
     #Aula 26 Verificando as alterações por Log
       git log                          => Verificando as os commits
