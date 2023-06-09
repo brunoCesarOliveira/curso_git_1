@@ -9,18 +9,18 @@ Seção 2 Git Fundamental
       git branch -M master               => Criando uma Branch (master)    
       git remote add origin git@github.com:brunoCesarOliveira/curso_git_1.git     => Sincronizando projeto local com remoto (github.com)/Erro
       git remote -v                      => Verificando as origens
-      git remote -rm origin              => Removendo as origin
+      git remote rm origin               => Removendo as origin
       git remote add  origin git@github.com:brunoCesarOliveira/curso_git_1.git     => Adicionando uma nova origin (SSH) (Site do Git)
-      git push -u origin master         => Enviando arquivos para remoto (github.com)
+      git push -u origin master          => Enviando arquivos para remoto (github.com)
       
     #Aula 19 Verificando as Alterações 
-      git status                        => Verificando as alterações
-      Untracked Files                   => Arquivo ainda não mapeado pelo GitHub (U)
-      new File                          => Novo arquivo adicionado  (A)
-      modified File                     => Arquivo modificado (M)
-      git add Comandos.txt              => Adicionando um arquivo específico 
-      git add b.txt                     => Adicionando um arquivo específico 
-      git add .                         => Adicionando Todos os arquivo para serem comitados
+      git status                         => Verificando as alterações
+      Untracked Files                    => Arquivo ainda não mapeado pelo GitHub (U)
+      new File                           => Novo arquivo adicionado  (A)
+      modified File                      => Arquivo modificado (M)
+      git add Comandos.txt               => Adicionando um arquivo específico 
+      git add b.txt                      => Adicionando um arquivo específico 
+      git add .                          => Adicionando Todos os arquivo para serem comitados
 
     #Aula 20 Adicionando arquivos no projeto
       git add contato.html               => Adicionando um arquivo específico 
@@ -40,10 +40,10 @@ Seção 2 Git Fundamental
       git clone  git@github.com:bcimportar/curso_git_1.git .  => Clonando o repositório remoto (.) para o repositório atual
 
     #Aula 25 Removendo arquivos
-      git rm 'a.txt'                   => Removendo arquivo
+      git rm 'a.txt'                     => Removendo arquivo
 
     #Aula 26 Verificando as alterações por Log
-      git log                          => Verificando as os commits
+      git log                            => Verificando as os commits
     
     #Aula 27 Renomear  Mover ou Renomear arquivo
       git mv script.js css/script.js                       => Movendo arquivos
@@ -59,7 +59,43 @@ Seção 2 Git Fundamental
     #Aula 30 Reseta todas as alterações  
       git reset --hard origin/master  (master a brach que eu estou)
 
-
-    
-
+Seção 3 Trabalhando com Branhes
+  #Aula 34 Criando a visualizando branches
+   git branch                        => Lista as  branches 
+   git branch primeiro_branch        => criando uma nova branch (baseada na master)
    
+  #Aula 35 Deletando branches
+   git branch -d segundo_branch                => Deleta a branch
+   git branch --delete 123_arrrumar_bug_home   => Deleta a branch
+
+  #Aula 36 Mudando de brach
+    git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de branch)
+    git checkout --b novabranch       => Muda de Branch e já a novabranch Alternando a branch algum_nome atualização
+   
+  #Aula 37 Unindo Branch
+    git merge algum_nome               => Unindo master com algum_nome
+    git add .                          => Para as novas atualizações
+    git push                           => Para atualizações o repositório remoto
+   
+  #Aula 38 Utilizando a Stash
+   git stash           => Guarda as alterações  em outro lugar 
+
+  #Aula 39 Recuperando o  Stash
+    git stash  list            => Mostra a lista de stash guardados
+    git stash apply (número)   => Recupera a stash
+    git stash show -p 0        => Verificando as modificações feitas 
+  
+  #Aula 40 Removendo a stash
+  git stash clear             => Remove toda as stash
+  git stash Drop (numero)     => Remove stash especifica
+    
+  #Aula 41 Criando Tags
+   git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
+   git tag                                 => Lista  tags
+
+  #Aula 42 Alterando a tags 
+     git show v1.0          => Mostra os detalhes da tag
+     git checkout  v5.0     => alterando a Tag
+
+ #Aula 43 Enviando tag par ao repositório remoto 
+     git push origin v4.0       => Enviando Tags para o repositorio
