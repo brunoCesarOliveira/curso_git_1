@@ -70,7 +70,7 @@ Seção 3 Trabalhando com Branhes
 
   #Aula 36 Mudando de brach
     git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de branch)
-    git checkout --b novabranch       => Muda de Branch e já a novabranch Alternando a branch algum_nome atualização
+    git checkout -b teste_criacao     => Cria um nova branch e muda para ela 
    
   #Aula 37 Unindo Branch
     git merge algum_nome               => Unindo master com algum_nome
