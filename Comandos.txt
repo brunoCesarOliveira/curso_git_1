@@ -72,7 +72,7 @@ Seção 3 Trabalhando com Branhes
     git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de branch)
     git checkout -b teste_criacao     => Cria um nova branch e muda para ela 
     git checkout -b teste_criacao_2   => Cria uma nova branch a partir do teste_criacao
-   
+    git push --set-upstream origin teste_criacao_2 =>Branch a partir de outra branch para atualizar  => 
 
   #Aula 37 Unindo Branch
     git merge algum_nome               => Unindo master com algum_nome
