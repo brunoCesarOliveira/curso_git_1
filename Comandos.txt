@@ -75,7 +75,7 @@ Seção 3 Trabalhando com Branhes
    
 
   #Aula 37 Unindo Branch
-    git merge algum_nome               => Unindo master com algum_nome
+    git merge teste_criacao_2          => Unindo master com teste_criacao_2
     git add .                          => Para as novas atualizações
     git push                           => Para atualizações o repositório remoto
    
