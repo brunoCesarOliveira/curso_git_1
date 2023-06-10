@@ -102,3 +102,4 @@ Seção 3 Trabalhando com Branhes
      git push origin v4.0       => Enviando Tags para o repositorio
      git push origin  --tags    => Enviando Tags para o repositorio
      git branch                 => Verificando qual tags estou Trabalhando.
+     git status                 => Verificando qual tags estou Trabalhando.
