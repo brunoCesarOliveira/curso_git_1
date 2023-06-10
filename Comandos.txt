@@ -90,7 +90,7 @@ Seção 3 Trabalhando com Branhes
     git stash clear             => Remove toda as stash
     git stash drop (numero)     => Remove stash especifica
     
-  #Aula 41 Criando Tags
+  #Aula 41 Criando Tags  => Cria  um marco (versões) no desenvolvimento para Grandes mudanças de uma tarefa.
     git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
     git tag                                 => Lista  tags
 
