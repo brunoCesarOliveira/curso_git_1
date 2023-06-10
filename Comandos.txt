@@ -75,7 +75,7 @@ Seção 3 Trabalhando com Branhes
     git push --set-upstream origin teste_criacao_2 =>Branch a partir de outra branch para atualizar  => 
 
   #Aula 37 Unindo Branch
-    git merge algum_nome               => Unindo master com algum_nome
+    git merge algum_nome               => Unindo master com teste_criacao_2
     git add .                          => Para as novas atualizações
     git push                           => Para atualizações o repositório remoto
    
