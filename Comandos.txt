@@ -73,14 +73,13 @@ Seção 3 Trabalhando com Branhes
     git checkout -b teste_criacao     => Cria um nova branch e muda para ela 
     git checkout -b teste_criacao_2   => Cria uma nova branch a partir do teste_criacao
    
-
   #Aula 37 Unindo Branch
     git merge teste_criacao_2          => Unindo master com teste_criacao_2
     git add .                          => Para as novas atualizações
     git push                           => Para atualizações o repositório remoto
    
   #Aula 38 Utilizando a Stash
-   git stash           => Guarda as alterações  em outro lugar 
+   git stash                   => Guarda as alterações  em outro lugar 
 
   #Aula 39 Recuperando o  Stash
     git stash  list            => Mostra a lista de stash guardados
@@ -88,12 +87,12 @@ Seção 3 Trabalhando com Branhes
     git stash show -p 0        => Verificando as modificações feitas 
   
   #Aula 40 Removendo a stash
-  git stash clear             => Remove toda as stash
-  git stash Drop (numero)     => Remove stash especifica
+    git stash clear             => Remove toda as stash
+    git stash Drop (numero)     => Remove stash especifica
     
   #Aula 41 Criando Tags
-   git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
-   git tag                                 => Lista  tags
+    git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
+    git tag                                 => Lista  tags
 
   #Aula 42 Alterando a tags 
      git show v1.0          => Mostra os detalhes da tag
