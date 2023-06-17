@@ -1,104 +1,110 @@
-  #Aula 14 Criando um repositório 
-    git.init     => criando um repositório  
+Seção 2 Git Fundamental
+    #Aula 14 Criando um repositório 
+      git.init                           => criando um repositório  
 
-  #Aula 17 Eviando o repositório para o GitHub
-    git status                          => Verificando as alterações
-    git add .                           => Adicionando todos os arquivo para ser comitado
-    git commit -m "mensagem"            => Salvando o arquivo no repositório local
-    git branch -M master                => Criando uma Branch (master)    
-    git remote add origin git@github.com:bcimportar/curso_git_1.git    => Sincronizando projeto local com remoto (github.com)  
-    git remote -v                      => Verificando as origens
-    git remote -rm origin              => Removendo as origin
-    git remote add  origin git@github.com:bcimportar/curso_git_1.git   => Adicionando uma nova origin (SSH)
-    git push -u origin master         => Enviando arquivos para remoto (github.com)
+    #Aula 18 Enviando o repositório para o GitHub
+      git status                         => Verificando as alterações
+      git add .                          => Adicionando todos os arquivo para ser comitado
+      git commit -m "mensagem"           => Salvando o arquivo no repositório local
+      git branch -M master               => Criando uma Branch (master)    
+      git remote add origin git@github.com:brunoCesarOliveira/curso_git_1.git     => Sincronizando projeto local com remoto (github.com)/Erro
+      git remote -v                      => Verificando as origens
+      git remote rm origin               => Removendo as origin
+      git remote add  origin git@github.com:brunoCesarOliveira/curso_git_1.git     => Adicionando uma nova origin (SSH) (Site do Git)
+      git push -u origin master          => Enviando arquivos para remoto (github.com)
+      
+    #Aula 19 Verificando as Alterações 
+      git status                         => Verificando as alterações
+      Untracked Files                    => Arquivo ainda não mapeado pelo GitHub (U)
+      new File                           => Novo arquivo adicionado  (A)
+      modified File                      => Arquivo modificado (M)
+      git add Comandos.txt               => Adicionando um arquivo específico 
+      git add b.txt                      => Adicionando um arquivo específico 
+      git add .                          => Adicionando Todos os arquivo para serem comitados
+
+    #Aula 20 Adicionando arquivos no projeto
+      git add contato.html               => Adicionando um arquivo específico 
+      git add .                          => Adicionando Todos os arquivo para serem comitados
+
+    #Aula 21 Salvando Alterações
+      git commit a.txt -m "mensagem"     => Salvando  o arquivo específico  repositório local
+      git commit -a -m "mensagem "       => Salvando todos os arquivo 
+
+    #Aula 22 Enviando código para o repositório
+      git push                           => Eviando os arquivo para repositório remoto
+
+    #Aula 23 Recebendo alterações
+      git pull                           => Recebendo atualizações do repoistorio remoto
+
+    #Aula 24 Clonando repositório
+      git clone  git@github.com:bcimportar/curso_git_1.git .  => Clonando o repositório remoto (.) para o repositório atual
+
+    #Aula 25 Removendo arquivos
+      git rm 'a.txt'                     => Removendo arquivo
+
+    #Aula 26 Verificando as alterações por Log
+      git log                            => Verificando as os commits
     
-  #Aula 18 Verificando as Mudanças 
-    git status                        => Verificando as alterações
-    Untracked                         => Arquivo ainda não mapeado pelo GitHub (U)
-    git add Comandos.txt              => Adicionando um arquivo específico 
-    git add b.txt                     => Adicionando um arquivo específico 
-    git add .                         => Adicionando Todos os arquivo para serem comitados
+    #Aula 27 Renomear  Mover ou Renomear arquivo
+      git mv script.js css/script.js                       => Movendo arquivos
+      git mv rodape.css css/rodape.css                     => Movendo arquivos 
+      git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
+
+    #Aula 28 Defazendo as alterações do arquivo específico
+      git checkout css/style.css                    => Reseta as alterações feitas no arquivo (original)
+
+    #Aula 29 Igonorando arquvos no projeto  
+      .gitignore
   
-  #Aula 19 Salvando as alterações 
-   git commit a.txt -m "mensagem"     => Salvando  o arquivo específico  repositório local
-   git commit -a -m "mensagem "       => Salvando todos os arquivo 
+    #Aula 30 Reseta todas as alterações  
+      git reset --hard origin/master  (master a brach que eu estou)
 
-  #Aula 21 Eviando códigos para o repositório remoto
-   git push                           => Eviando os arquivo para repositório remoto
-
-  #Aula 22 Recebendo alterações
-   git pull                           => Recebendo atualizações do repoistorio remoto
-
-  #Aula 23 Clonando repositório
-    git clone  git@github.com:bcimportar/curso_git_1.git .  => Clonando o repositório remoto
-
-  #Aula 24 Removendo arquivos
-    git rm c.txt                    => Removendo arquivo
-
-  #Aula 25 Verificando as alterações por Log
-    git log                          => Verificando as os commits
-   
-  #Aula 26 Mover ou Renomear arquivo
-   git mv script.js css/script.js                       => Movendo arquivos
-   git mv css/banne.css css/banner_inicial.css          => Renomeando arquvios
-
-  #Aula 27 Defazendo as alterações
-   git checkout css/banner_inicial.cs                    => Reseta as alterações feitas no arquivo (original)
-
-  #Aula 28 Igonorando arquvos no projeto  
-   .gitignore
- 
-  #Aula 29 Reseta todas as alterações  
-   git reset --hard origin/master  (master a brach que eu estou)
-
-  #Aula 33 Criando a visualizando branches
+Seção 3 Trabalhando com Branhes
+  #Aula 34 Criando a visualizando branches
    git branch                        => Lista as  branches 
    git branch primeiro_branch        => criando uma nova branch (baseada na master)
    
-  #Aula 34 Deletando branches
+  #Aula 35 Deletando branches
    git branch -d segundo_branch                => Deleta a branch
    git branch --delete 123_arrrumar_bug_home   => Deleta a branch
 
-  #Aula 35 Mudando de brach
-    git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de brach)
-    git checkout --b novabranch       => Muda de Branch e já a novabranch 
-     Alternando a branch algum_nome
-      atualização
+  #Aula 36 Mudando de brach
+    git checkout novabranch           => Muda de Branch (sempre cuidar para adicionar os arquivo antes de mudar de branch)
+    git checkout -b teste_criacao     => Cria um nova branch e muda para ela 
+    git checkout -b teste_criacao_2   => Cria uma nova branch a partir do teste_criacao
    
-  #Aula 36 Unindo Branch
-    git merge algum_nome               => Unindo master com algum_nome
+  #Aula 37 Unindo Branch
+    git merge teste_criacao_2          => Unindo master com teste_criacao_2
     git add .                          => Para as novas atualizações
     git push                           => Para atualizações o repositório remoto
    
-  #Aula 37 Utilizando a Stash
-   git stash           => Guarda as alterações  em outro lugar 
+  #Aula 38 Utilizando a Stash
+   git stash                   => Guarda as alterações  em outro lugar 
 
-  #Aula 38 Recuperando o  Stash
+  #Aula 39 Recuperando o  Stash
     git stash  list            => Mostra a lista de stash guardados
     git stash apply (número)   => Recupera a stash
     git stash show -p 0        => Verificando as modificações feitas 
   
-  #Aula 39 Removendo a stash
-  git stash clear             => Remove toda as stash
-  git stash Drop (numero)     => Remove stash especifica
+  #Aula 40 Removendo a stash
+    git stash clear             => Remove toda as stash
+    git stash drop (numero)     => Remove stash especifica
     
- #Aula 40 Utilizando Tags
-   git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
-   git tag                                 => Lista  tags
+  #Aula 41 Criando Tags  => Cria  um marco (versões) no desenvolvimento para Grandes mudanças de uma tarefa.
+    git tag -a v1.0 -m "Primeira versão"    => Adiciona  a tag
+    git tag                                 => Lista  tags
 
- #Aula 40 Verificando e alterando a tags 
-     git show v1.0          => Mostra os detalhes da tag
-
- #Aula 41 Verificando e alterando a tags 
+  #Aula 42 Alterando a tags 
      git show v1.0          => Mostra os detalhes da tag
      git checkout  v5.0     => alterando a Tag
 
- #Aula 42 Enviando tag par ao repositório remoto 
+ #Aula 43 Enviando tag par ao repositório remoto 
      git push origin v4.0       => Enviando Tags para o repositorio
 
- #Aula 45 Encontrando Branch
-   git push --set-upstream origin Funcionalidade_A  =>Enviando brach para o repositorio
-   git fetch -a                                     => Pega todas as branch do repoistorio
+Seção 4 Compatilhamento e atualizações de repositorios
+  #Aula 45 Encontrando Branch
+      git push --set-upstream origin FuncionalidadeA  => Enviando brach para o repositorio
+      git fetch -a                                     => Pega todas as branch do repositorio
 
  #Aula 46 Recebendo Alterações 
    git pull                   => Pega todas as atualização	do repositorio
