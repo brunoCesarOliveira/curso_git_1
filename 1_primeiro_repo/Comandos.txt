@@ -112,12 +112,6 @@ Seção 4 Compatilhamento e atualizações de repositorios
 
 #Aula 47 Eviando Alterações
    git push              => Enviando as alterações para repositório
+   git merge origin/FuncionalidadeA => Para pegar as atualizações FuncionalidadeA 
 
-#Aula 48 Utilizando o remote 
-  git remove -v         => Verifica as origin das branches
-  git remote rm origin  => Remove as origin
-  git remote add        => Adiciona o repositorio remoto
-   (Precisar enviar as branches novamente )
-  git push --set-upstream origin master
-
-#Aul
+   
