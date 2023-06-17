@@ -104,7 +104,7 @@ Seção 3 Trabalhando com Branhes
 Seção 4 Compatilhamento e atualizações de repositorios
 
  #Aula 45 Encontrando Branch
-   git push --set-upstream origin Funcionalidade_A  => Enviando brach para o repositorio
+   git push --set-upstream origin FuncionalidadeA  => Enviando brach para o repositorio
    git fetch -a                                     => Pega todas as branch do repoistorio
 
  #Aula 46 Recebendo Alterações 
