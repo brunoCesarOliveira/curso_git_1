@@ -1,2 +1,2 @@
-Testando atualizações do clone para atualizar 2_clone_repo
-ualizando para Aula 47 stash
+Criando a branch FuncionalidadeA 
+e enviando a funcionalidade X
