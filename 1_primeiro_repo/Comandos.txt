@@ -111,7 +111,8 @@ Seção 4 Compatilhamento e atualizações de repositorios
    (Deixando a produção sempre atualizada )
 
 #Aula 47 Eviando Alterações
-   git push              => Enviando as alterações para repositório
+   git push                         => Enviando as alterações para repositório
    git merge origin/FuncionalidadeA => Para pegar as atualizações FuncionalidadeA 
+   git merge origin/FuncionalidadeA => Para pegar as atualizações FuncionalidadeB
 
    
