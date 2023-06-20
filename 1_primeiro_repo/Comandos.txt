@@ -120,7 +120,8 @@ Seção 4 Compatilhamento e atualizações de repositorios
     git remote add origin   => Adiciona os repositorio remoto
 
  #Aula 50  Conhecendo os submodules
-   git push              => Enviando as alterações para repositório
+   git submodule add https://github.com/brunoCesarOliveira/submodulo.git submodulo  => Adiciona um submodule submodulo
+   git submodule 
 
  #Aula 51 Atualizando os submodules
    git push              => Enviando as alterações para repositório
