@@ -103,15 +103,24 @@ Seção 3 Trabalhando com Branhes
 
 Seção 4 Compatilhamento e atualizações de repositorios
 
- #Aula 45 Encontrando Branch
+ #Aula 46 Encontrando Branch
    git push --set-upstream origin FuncionalidadeA  => Enviando brach para o repositorio
    git fetch -a                                     => Pega todas as branch do repositorio
 
- #Aula 46 Recebendo Alterações 
+ #Aula 47 Recebendo Alterações 
    git pull                   => Pega todas as atualização	do repositorio
    (Deixando a produção sempre atualizada )
 
-#Aula 47 Eviando Alterações
+ #Aula 48 Eviando Alterações
+   git push              => Enviando as alterações para repositório
+  
+ #Aula 49  Utilizando o Remote
+    git remote -v         => Verificando as origens do Remote
+    git remote rm origin  => Revendo as origens
+    git remote add        => Adiciona os repositorio remoto
+
+ #Aula 50  Conhecendo os submodules
    git push              => Enviando as alterações para repositório
 
-   
+ #Aula 51 Atualizando os submodules
+   git push              => Enviando as alterações para repositório
