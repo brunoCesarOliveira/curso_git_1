@@ -115,9 +115,9 @@ Seção 4 Compatilhamento e atualizações de repositorios
    git push              => Enviando as alterações para repositório
   
  #Aula 49  Utilizando o Remote
-    git remote -v         => Verificando as origens do Remote
-    git remote rm origin  => Revendo as origens
-    git remote add        => Adiciona os repositorio remoto
+    git remote -v           => Verificando as origens do Remote
+    git remote rm origin    => Revendo as origens
+    git remote add origin   => Adiciona os repositorio remoto
 
  #Aula 50  Conhecendo os submodules
    git push              => Enviando as alterações para repositório
