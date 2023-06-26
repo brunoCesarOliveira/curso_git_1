@@ -124,4 +124,4 @@ Seção 4 Compatilhamento e atualizações de repositorios
    git submodule 
 
  #Aula 51 Atualizando os submodules
-   git push              => Enviando as alterações para repositório
+   git push --recurse-submodule=on-demand => Enviando as alterações para repositório
